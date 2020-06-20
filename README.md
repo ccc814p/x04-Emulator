@@ -6,11 +6,11 @@ The first command you will learn is the `mov` command. The `mov` command's binar
 ```1000 0000 0001```
 ## Each Part Explained
 `1000`
-^ Main Instruction
+ Main Instruction |
 `0000`
-^ Register to move value into
+ Register to move value into |
 `0001`
-^ Value to move into the register
+ Value to move into the register |
 # Math!
 The next commands you will learn are mathematical functions! `Add=0001`
 `Sub=0010`
@@ -20,11 +20,11 @@ All math functions share a similar syntax.
 ```0010 0000 0001```
 ## Each Part Explained
 `0010`
-^ Mathematical Operand
+ Mathematical Operand |
 `0000`
-^ First register in math problem
+ First register in math problem |
 `0001`
-^ Second register in math problem
+ Second register in math problem |
 Think of it this way.
 ```register1-register2```
 The answer to the math problem is moved into a special register named register O!
@@ -34,11 +34,11 @@ The syntax of `mvO`/`1001` looks like this.
 ```1001 0000 0011```
 ## Each Part Explained
 `1001`
-^ Main mvO instruction
+ Main mvO instruction |
 `0000`
-^ Random integer (This doesn't matter!)
+ Random integer (This doesn't matter!) |
 `0011`
-^ Register to move the O register's value into.
+ Register to move the O register's value into. |
 # Shutting Off the Emulator
 To shut off the emulator, simply type
 ```0000 0000 0000```
